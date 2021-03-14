@@ -1,0 +1,2 @@
+system_init.c:7:13:system_clock_init	88	static
+system_init.c:34:6:system_init	8	static

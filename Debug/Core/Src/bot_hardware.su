@@ -1,0 +1,15 @@
+bot_hardware.c:19:6:robot_motor_init	8	static
+bot_hardware.c:29:6:robot_imu_init	8	static
+bot_hardware.c:36:6:robot_imu_get_accel	16	static
+bot_hardware.c:45:6:robot_imu_get_gyro	16	static
+bot_hardware.c:51:6:robot_imu_get_quat	16	static
+bot_hardware.c:57:6:robot_motor_left_start	8	static
+bot_hardware.c:63:6:robot_motor_left_stop	8	static
+bot_hardware.c:69:6:robot_motor_left_set_speed	16	static
+bot_hardware.c:75:6:robot_motor_right_start	8	static
+bot_hardware.c:81:6:robot_motor_right_stop	8	static
+bot_hardware.c:87:6:robot_motor_right_set_speed	16	static
+bot_hardware.c:93:6:robot_encoder_left_get_tick	16	static
+bot_hardware.c:102:6:robot_encoder_right_get_tick	16	static
+bot_hardware.c:113:10:millis	8	static
+bot_hardware.c:119:7:constrain	32	static

@@ -1,0 +1,6 @@
+servo.c:39:7:PID_l	40	static
+servo.c:69:7:PID_r	40	static
+servo.c:101:6:run_l	16	static
+servo.c:123:6:run_r	16	static
+servo.c:166:6:servo_init	8	static
+servo.c:175:6:write_servo	32	static

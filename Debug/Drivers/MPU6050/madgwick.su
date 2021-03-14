@@ -1,0 +1,7 @@
+madgwick.c:30:14:invSqrt	32	static
+madgwick.c:41:19:madgwick_init	24	static
+madgwick.c:62:6:madgwick_set_beta	16	static
+madgwick.c:69:6:madgwick_set_sample_frequency	16	static
+madgwick.c:76:6:madgwick_get_quaternion	16	static
+madgwick.c:86:6:madgwick_update_6dof	152	static
+madgwick.c:175:6:madgwick_update_9dof	224	static

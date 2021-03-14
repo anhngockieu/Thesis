@@ -1,0 +1,11 @@
+imu.c:24:6:HAL_I2C_MspInit	48	static
+imu.c:61:6:HAL_I2C_MspDeInit	16	static
+imu.c:86:6:MX_I2C1_Init	8	static
+imu.c:114:13:User_I2C1_GeneralPurposeOutput_Init	40	static
+imu.c:127:13:User_I2C1_AlternateFunction_Init	40	static
+imu.c:140:19:I2CResetBus	8	static
+imu.c:217:6:Imu_init	16	static
+imu.c:241:6:Read_imu	32	static
+imu.c:258:6:Get_acc	32	static
+imu.c:265:6:Get_gyro	32	static
+imu.c:272:6:Get_quat	32	static
