@@ -92,7 +92,7 @@ void robot_motor_right_set_speed(float speed,float pre_speed)
 
 void robot_encoder_left_get_tick(int32_t *left_tick)
 {
-	*left_tick = (int32_t)(htim2.Instance->CNT);
+	*left_tick = (int32_t)(htim5.Instance->CNT);
 	//__HAL_TIM_GET_COUNTER(&htim2) = 0;
 	//htim2.Instance->CNT &= 0x00000000;
 	//*left_tick = 0;
@@ -102,7 +102,7 @@ void robot_encoder_left_get_tick(int32_t *left_tick)
 void robot_encoder_right_get_tick(int32_t *right_tick)
 {
 
-	*right_tick = (int32_t)(htim5.Instance->CNT);
+	*right_tick = (int32_t)(htim2.Instance->CNT);
 	//*right_tick = (int32_t)(htim5.Instance->CNT) ;
 	//htim5.Instance->CNT &= 0x00000000;
 	//__HAL_TIM_GET_COUNTER(&htim5) = 0;

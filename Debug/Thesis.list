@@ -1428,7 +1428,7 @@ void robot_encoder_left_get_tick(int32_t *left_tick)
  800102e:	b083      	sub	sp, #12
  8001030:	af00      	add	r7, sp, #0
  8001032:	6078      	str	r0, [r7, #4]
-	*left_tick = (int32_t)(htim2.Instance->CNT);
+	*left_tick = (int32_t)(htim5.Instance->CNT);
  8001034:	4b05      	ldr	r3, [pc, #20]	; (800104c <robot_encoder_left_get_tick+0x20>)
  8001036:	681b      	ldr	r3, [r3, #0]
  8001038:	6a5b      	ldr	r3, [r3, #36]	; 0x24
@@ -1444,7 +1444,7 @@ void robot_encoder_left_get_tick(int32_t *left_tick)
  8001044:	46bd      	mov	sp, r7
  8001046:	f85d 7b04 	ldr.w	r7, [sp], #4
  800104a:	4770      	bx	lr
- 800104c:	20008ca0 	.word	0x20008ca0
+ 800104c:	20008c20 	.word	0x20008c20
 
 08001050 <robot_encoder_right_get_tick>:
 
@@ -1456,7 +1456,7 @@ void robot_encoder_right_get_tick(int32_t *right_tick)
  8001054:	af00      	add	r7, sp, #0
  8001056:	6078      	str	r0, [r7, #4]
 
-	*right_tick = (int32_t)(htim5.Instance->CNT);
+	*right_tick = (int32_t)(htim2.Instance->CNT);
  8001058:	4b05      	ldr	r3, [pc, #20]	; (8001070 <robot_encoder_right_get_tick+0x20>)
  800105a:	681b      	ldr	r3, [r3, #0]
  800105c:	6a5b      	ldr	r3, [r3, #36]	; 0x24
@@ -1473,7 +1473,7 @@ void robot_encoder_right_get_tick(int32_t *right_tick)
  8001068:	46bd      	mov	sp, r7
  800106a:	f85d 7b04 	ldr.w	r7, [sp], #4
  800106e:	4770      	bx	lr
- 8001070:	20008c20 	.word	0x20008c20
+ 8001070:	20008ca0 	.word	0x20008ca0
 
 08001074 <millis>:
 
